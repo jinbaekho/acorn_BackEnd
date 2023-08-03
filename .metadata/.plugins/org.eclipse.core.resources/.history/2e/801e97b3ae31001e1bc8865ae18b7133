@@ -1,0 +1,28 @@
+package com.acorn;
+
+import java.util.Scanner;
+
+public class Study {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			System.out.println("\n비밀번호입력\n(취소하시려면\"20000\"입력)");
+			int userPW = sc.nextInt();
+			String stPW = userPW + "";
+			int p0 = stPW.charAt(0);
+			int p1 = stPW.charAt(1);
+			int p2 = stPW.charAt(2);
+			int p3 = stPW.charAt(3);
+
+			for (int i = 0; i < 4; i++) {
+				for(int j=i+1;j<i+1;j++) {
+					if(stPW.charAt(i)==stPW.charAt(j)) {System.out.println("dfsdfasdf"); break;}
+				}
+			}
+
+		}
+		sc.close();
+	}
+
+}

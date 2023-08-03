@@ -1,0 +1,801 @@
+package com.acorn;
+
+public class Study {
+	public static void main(String[] args) {
+		byte bN = 0;
+		System.out.println(bN);
+		short sN = 0;
+		System.out.println(sN);
+		int iN = 0;
+		System.out.println(iN);
+		sN = (short) iN;
+		long lN = 0L;
+		System.out.println(lN);
+		float fN = 0.0F;
+		System.out.println(fN);
+		char cC = 'c';
+		System.out.println(cC);
+		String str = "str";
+		System.out.println(str);
+
+		// 특수 변수
+
+		// 조건문
+		byte[] bNumberArr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+		int i = 0;
+		if (bNumberArr[i] % 10 == 0) {
+			System.out.print("10의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 9 == 0) {
+			System.out.print("9의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 8 == 0) {
+			System.out.print("8의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 7 == 0) {
+			System.out.print("7의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 6 == 0) {
+			System.out.print("6의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 5 == 0) {
+			System.out.print("5의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 4 == 0) {
+			System.out.print("4의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 3 == 0) {
+			System.out.print("3의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 2 == 0) {
+			System.out.print("2의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 1 == 0) {
+			System.out.print("1의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		}
+		i++;
+		if (bNumberArr[i] % 10 == 0) {
+			System.out.print("10의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 9 == 0) {
+			System.out.print("9의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 8 == 0) {
+			System.out.print("8의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 7 == 0) {
+			System.out.print("7의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 6 == 0) {
+			System.out.print("6의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 5 == 0) {
+			System.out.print("5의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 4 == 0) {
+			System.out.print("4의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 3 == 0) {
+			System.out.print("3의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 2 == 0) {
+			System.out.print("2의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 1 == 0) {
+			System.out.print("1의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		}
+		i++;
+		if (bNumberArr[i] % 10 == 0) {
+			System.out.print("10의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 9 == 0) {
+			System.out.print("9의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 8 == 0) {
+			System.out.print("8의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 7 == 0) {
+			System.out.print("7의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 6 == 0) {
+			System.out.print("6의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 5 == 0) {
+			System.out.print("5의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 4 == 0) {
+			System.out.print("4의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 3 == 0) {
+			System.out.print("3의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 2 == 0) {
+			System.out.print("2의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 1 == 0) {
+			System.out.print("1의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		}
+		i++;
+		if (bNumberArr[i] % 10 == 0) {
+			System.out.print("10의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 9 == 0) {
+			System.out.print("9의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 8 == 0) {
+			System.out.print("8의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 7 == 0) {
+			System.out.print("7의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 6 == 0) {
+			System.out.print("6의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 5 == 0) {
+			System.out.print("5의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 4 == 0) {
+			System.out.print("4의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 3 == 0) {
+			System.out.print("3의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 2 == 0) {
+			System.out.print("2의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 1 == 0) {
+			System.out.print("1의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		}
+		i++;
+		if (bNumberArr[i] % 10 == 0) {
+			System.out.print("10의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 9 == 0) {
+			System.out.print("9의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 8 == 0) {
+			System.out.print("8의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 7 == 0) {
+			System.out.print("7의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 6 == 0) {
+			System.out.print("6의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 5 == 0) {
+			System.out.print("5의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 4 == 0) {
+			System.out.print("4의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 3 == 0) {
+			System.out.print("3의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 2 == 0) {
+			System.out.print("2의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 1 == 0) {
+			System.out.print("1의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		}
+		i++;
+		if (bNumberArr[i] % 10 == 0) {
+			System.out.print("10의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 9 == 0) {
+			System.out.print("9의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 8 == 0) {
+			System.out.print("8의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 7 == 0) {
+			System.out.print("7의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 6 == 0) {
+			System.out.print("6의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 5 == 0) {
+			System.out.print("5의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 4 == 0) {
+			System.out.print("4의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 3 == 0) {
+			System.out.print("3의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 2 == 0) {
+			System.out.print("2의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 1 == 0) {
+			System.out.print("1의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		}
+		i++;
+		if (bNumberArr[i] % 10 == 0) {
+			System.out.print("10의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 9 == 0) {
+			System.out.print("9의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 8 == 0) {
+			System.out.print("8의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 7 == 0) {
+			System.out.print("7의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 6 == 0) {
+			System.out.print("6의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 5 == 0) {
+			System.out.print("5의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 4 == 0) {
+			System.out.print("4의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 3 == 0) {
+			System.out.print("3의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 2 == 0) {
+			System.out.print("2의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 1 == 0) {
+			System.out.print("1의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		}
+		i++;
+		if (bNumberArr[i] % 10 == 0) {
+			System.out.print("10의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 9 == 0) {
+			System.out.print("9의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 8 == 0) {
+			System.out.print("8의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 7 == 0) {
+			System.out.print("7의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 6 == 0) {
+			System.out.print("6의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 5 == 0) {
+			System.out.print("5의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 4 == 0) {
+			System.out.print("4의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 3 == 0) {
+			System.out.print("3의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 2 == 0) {
+			System.out.print("2의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 1 == 0) {
+			System.out.print("1의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		}
+		i++;
+		if (bNumberArr[i] % 10 == 0) {
+			System.out.print("10의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 9 == 0) {
+			System.out.print("9의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 8 == 0) {
+			System.out.print("8의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 7 == 0) {
+			System.out.print("7의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 6 == 0) {
+			System.out.print("6의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 5 == 0) {
+			System.out.print("5의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 4 == 0) {
+			System.out.print("4의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 3 == 0) {
+			System.out.print("3의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 2 == 0) {
+			System.out.print("2의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 1 == 0) {
+			System.out.print("1의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		}
+		i++;
+		if (bNumberArr[i] % 10 == 0) {
+			System.out.print("10의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 9 == 0) {
+			System.out.print("9의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 8 == 0) {
+			System.out.print("8의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 7 == 0) {
+			System.out.print("7의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 6 == 0) {
+			System.out.print("6의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 5 == 0) {
+			System.out.print("5의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 4 == 0) {
+			System.out.print("4의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 3 == 0) {
+			System.out.print("3의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 2 == 0) {
+			System.out.print("2의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		} else if (bNumberArr[i] % 1 == 0) {
+			System.out.print("1의배수입니다");
+			if (bNumberArr[i] % 2 == 0) {
+				System.out.println("짝수");
+			} else {
+				System.out.println();
+			}
+		}
+		i++;
+		// 반복문
+		for (i = 0; i < 10; i++) {
+			for (int j = 1; j <= i; j++) {
+				if (i % j == 0) {
+					System.out.print(i + "는" + j + "의 배수입니다.");
+					if (i % 2 == 0) {
+						System.out.println("짝수입니다");
+					} else if (i % 2 != 0) {
+						System.out.println();
+					}
+				}
+			}
+		}
+
+		for (i = 0; i <= 10; i++) {
+			System.out.print(i);
+		}
+		System.out.println("\n출력완료");
+
+		for (i = 1; i < 10; i++) {
+			for (int j = 1; j < 10; j++) {
+				System.out.println(i + "x" + j + "=" + i * j);
+			}
+			System.out.println();
+		}
+		for (i = 2; i < 10; i++) {
+			System.out.print(i + "단 :");
+			for (int j = 1; j < 10; j++) {
+				System.out.print(" " + j * i);
+			}
+			System.out.println();
+		}
+		System.out.println("출력끝");
+
+		for (i = 0; i < 5; i++) {
+			for (int j = 0; j < i + 1; j++) {
+				System.out.print(" ");
+			}
+			for (int j = 0; j < i + 1; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+
+		}
+
+		for (i = 0; i < 5; i++) {
+			for (int k = 5; k > 0; k--) {
+				System.out.print(" ");
+			}
+			for (int j = 0; j < i + 1; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+}

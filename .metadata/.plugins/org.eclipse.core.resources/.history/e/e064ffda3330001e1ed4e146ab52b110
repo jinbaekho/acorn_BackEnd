@@ -1,0 +1,22 @@
+package com.acorn;
+
+import java.util.Scanner;
+
+public class Study01 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("국어몇?");
+		int ko = sc.nextInt();
+		System.out.println("영어몇?");
+		int en = sc.nextInt();
+		System.out.println("수학몇?");
+		int ma = sc.nextInt();
+		
+		System.out.println("당신의 평균점수는 "+(ko+en+ma)/3+"점 입니다.");
+		
+		sc.close();
+	}//End
+
+}

@@ -1,0 +1,16 @@
+package com.acorn;
+
+import java.util.Scanner;
+
+public class Study4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("입력할 단어 ㄱ");
+		String str = sc.next();
+		String[] arr = new String[str.length()];
+		for (int i = 0; i < str.length() - 1; i++) arr[i] = str.charAt(i)+"";
+		sc.close();
+	}
+
+}

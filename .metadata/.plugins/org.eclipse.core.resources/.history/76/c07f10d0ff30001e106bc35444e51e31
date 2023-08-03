@@ -1,0 +1,9 @@
+package com.acorn;
+
+import java.util.Scanner;
+
+public class Study3 {
+public static void main(String[] args) {
+
+}
+}

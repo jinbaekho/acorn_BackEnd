@@ -1,0 +1,22 @@
+package com.acorn;
+
+import java.util.Scanner;
+
+public class Run {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("이름을 입력하세요");
+		String name = sc.next();
+		System.out.println("성별을 입력하세요");
+		String sex = sc.next();
+		System.out.println("나이를 입력하세요");
+		int age = sc.nextInt();
+		System.out.println("키를 입력하세요(cm)");
+		float height = sc.nextFloat();
+		System.out.println("키 "+height+"cm인 "+age+"살 "+sex+" "+name+"님 반갑습니다^-^");
+		sc.close();
+	}
+
+}
