@@ -20,8 +20,8 @@ public class Study1 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("이동");
 		int MV = sc.nextInt();
-		sc.close();
 		if(MV==5) {newN(game);}
+//		sc.close();
 	}
 	
 	public static void DP(int[] game) {
