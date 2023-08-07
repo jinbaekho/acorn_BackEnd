@@ -1,0 +1,30 @@
+package com.acorn;
+
+import java.util.Scanner;
+
+public class Study {
+
+	public static void main(String[] args) {		
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			System.out.println("while");
+			System.out.println("\n비밀번호입력\n(취소하시려면\"20000\"입력)");
+			int userPW = sc.nextInt();
+			String stPW = userPW + "";
+			if(userPW>9999) {System.out.println("자리수");}
+			int i,j;
+			for (i = 0; i < 3; i++) {
+				System.out.println("i:"+i);
+				for (j = i + 1; j <= 3; j++) {
+					System.out.println("j:"+j);
+					}
+				if (stPW.charAt(i) == stPW.charAt(j)) {
+					System.out.println("dfsdfasdf");
+					break;
+				}
+			}
+//			sc.close();
+		}
+	}
+
+}

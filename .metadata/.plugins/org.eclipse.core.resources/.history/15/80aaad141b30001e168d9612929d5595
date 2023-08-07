@@ -1,0 +1,22 @@
+package com.acorn;
+
+public class Study2 {
+
+	public static void main(String[] args) {
+		
+		
+		for (i = 0; i < 5; i++) {
+			for (int k = 5; k-i > 0; k--) {
+				System.out.print(" ");
+			}
+			for (int j = 0; j < i + 1; j++) {
+				for(int k=1;k<;k++) {
+					if(k%2!=0){System.out.print("*");}
+					}
+			}
+			System.out.println();
+
+	}
+
+}
+}

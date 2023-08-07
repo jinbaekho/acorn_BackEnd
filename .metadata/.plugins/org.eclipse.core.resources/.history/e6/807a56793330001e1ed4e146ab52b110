@@ -1,0 +1,17 @@
+package com.acorn;
+
+import java.util.Scanner;
+
+public class Study01 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		
+		
+	}//End
+
+}

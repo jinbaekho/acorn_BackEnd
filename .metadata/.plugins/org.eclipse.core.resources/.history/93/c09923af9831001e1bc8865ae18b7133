@@ -1,0 +1,28 @@
+package com.acorn;
+
+import java.util.Scanner;
+
+public class Study1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("중간고사 점수를 입력해주세요");
+		int mT=sc.nextInt();
+		System.out.println("기말고사 점수를 입력해주세요");
+		int lT=sc.nextInt();
+		System.out.println("과제점수를 입력해주세요");
+		int hW=sc.nextInt();
+		System.out.println("출석일을 입력해주세요(?/20)");
+		int tD=sc.nextInt();
+		
+		System.out.println("중간고사: "+mT);
+		System.out.println("기말고사: "+lT);
+		System.out.println("과제: "+hW);
+		System.out.println("출석: "+tD);
+		int tT=(	mT*(2/10)	)+(	lT*(3/10)	)+(	hW*(3/10)	)+(tD));
+		System.out.println("점수는"+(	(	mT*(2/10)	)+(	lT*(3/10)	)+(	hW*(3/10)	)+(tD))	);
+		System.out.println("점수는"+tT);
+		sc.close();
+	}
+}

@@ -1,0 +1,48 @@
+package com.acron;
+
+import java.util.Scanner;
+
+public class Study02 {
+	
+	public static void main(String[] args) {
+		
+		// 타입 지정: 1(사람), 2(컴퓨터)
+		byte iType = 1;
+		// 키보드 입력 객체 생성
+		Scanner sc = new Scanner(System.in);
+		
+		// 두 개의 숫자를 키보드 입력
+		System.out.println("숫자입력1:>>>");
+		int iInputVal01 = sc.nextInt();
+		System.out.println("숫자입력2:>>>");
+		int iInputVal02 = sc.nextInt();
+		
+		// 두 개의 난수를 생성
+		int iRanNum01 = (int)((Math.random()*100))+1;
+		int iRanNum02 = (int)((Math.random()*100))+1;
+		
+		System.out.println(iRanNum01 + ":" + iRanNum02);
+		
+		// 우승조건: 두 개의 수의 차가 가장 적은 수
+		if( (iInputVal01 - iInputVal02) > (iRanNum01 - iRanNum02) )
+		{
+			iType = 2;
+		}
+			
+		// 우승 여부 출력
+		if(iType == 2) System.out.println("컴퓨터 우승");
+		else System.out.println("사람 우승");
+		
+		sc.close();
+		
+		
+		// 요소 없는 배열 생성: 데이터타입[] 변수명 = {};
+		
+		// 난수발생기를 사용해 배열에 값을 할당:  반복문
+		
+		// 이전 코드 
+		
+		// 우승조건 체크: 큰 수에서 작은 수에 대한 뺄셈 
+		
+	}
+}

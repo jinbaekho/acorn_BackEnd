@@ -1,0 +1,16 @@
+package com.acorn;
+
+import java.util.Scanner;
+
+public class Run4 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("인원수");
+		int pe = sc.nextInt();
+		System.out.println("사탕수");
+		int can = sc.nextInt();
+		System.out.println("인원수: "+pe+"\n사탕수: "+can+"\n1인당 사탕수"+(can/pe)+"\n남은사탕"+(can%pe));
+		
+		sc.close();
+	}
+}

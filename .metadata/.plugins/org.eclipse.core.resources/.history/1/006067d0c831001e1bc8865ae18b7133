@@ -1,0 +1,24 @@
+package com.acorn;
+
+import java.util.Scanner;
+
+public class Study3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String weeK[] = { "월", "화", "수", "목", "금", "토", "일" };
+
+		while (true) {
+			System.out.println("0~6까지 수 입력");
+			int nN = sc.nextInt();
+			if (0 <= nN || nN <= 6) {
+				System.out.println(week[nN]);
+				break;
+			} else {
+				System.out.println("입력오류");
+			}
+		}
+		sc.close();
+	}
+
+}
